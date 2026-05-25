@@ -1,8 +1,18 @@
 # BhoomiSatya (భూమి సత్య) - "Land Truth"
 
-**AI-powered property safety & valuation verification for Telangana and Andhra Pradesh**
+**AI-powered property verification agent that removes middlemen from real estate in Telangana and Andhra Pradesh**
 
-> One survey number. One WhatsApp message. The truth about any property in Telugu states.
+> One survey number. One WhatsApp message. Data-backed decisions for buyers and sellers - no brokers, no guesswork.
+
+---
+
+## Our Mission
+
+**We are building an AI agent and company that recommends users the best property to invest in, removes middlemen from real estate transactions, and serves data-backed decisions to ensure both parties - buyers and sellers - get fair value.**
+
+The real estate industry in Telugu states runs on opacity. Brokers control information, lawyers charge for access to public records, and neither the buyer nor the seller knows if the deal is fair. BhoomiSatya changes this by making property data transparent, instant, and affordable.
+
+We don't just verify properties. We **recommend** whether a property is the right investment for you - backed by government land records, court data, registration values, and market comparables. No middlemen. No hidden agendas. Just truth.
 
 ---
 
@@ -46,11 +56,27 @@ Even after verifying that a property is legally clean, buyers have no reliable w
 
 **Result**: Overpaying by 15-30% is the norm, not the exception.
 
+### The middlemen problem
+
+Real estate in India is dominated by brokers and intermediaries who profit from information asymmetry:
+
+- **Brokers** charge 1-2% of property value (Rs 50,000-2,00,000 on a typical transaction) for "connecting" buyer and seller - while hiding comparable sale data that would let buyers negotiate
+- **Lawyers** charge Rs 15,000-50,000 for verification that largely involves visiting the same government portals we scrape
+- **Neither party knows if the deal is fair** - the broker benefits from higher prices (higher commission), not from fair prices
+- **Sellers get less** because brokers take their cut from both sides
+- **Buyers pay more** because they have no independent data to negotiate with
+
+The total middleman tax on a typical Telugu-state property transaction is **3-5% of property value**. On a Rs 50 lakh property, that's Rs 1.5-2.5 lakhs going to intermediaries who add opacity, not transparency.
+
+**BhoomiSatya replaces this entire chain** with a Rs 999-2,999 AI-powered report that gives both parties the same data, the same truth, and the confidence to transact directly.
+
 ---
 
 ## The Solution
 
-**BhoomiSatya** is a WhatsApp-first AI agent that answers two questions about any property in Telangana or Andhra Pradesh:
+**BhoomiSatya** is a WhatsApp-first AI agent that serves as your **data-backed property advisor** - replacing brokers, lawyers, and guesswork with transparent, instant, and affordable property intelligence.
+
+We answer three questions about any property in Telangana or Andhra Pradesh:
 
 ### 1. "Is this property safe to buy?" - Safety Verdict
 
@@ -87,9 +113,29 @@ BhoomiSatya also tells you whether the asking price is fair:
 | **UNDERPRICED** | Asking price is below market - investigate why (could signal issues) |
 | **INSUFFICIENT DATA** | Not enough comparable transactions to estimate reliably |
 
-### What the buyer receives
+### 3. "Should I invest in this property?" - Investment Recommendation
 
-A **comprehensive PDF report** delivered via WhatsApp containing:
+Beyond safety and price, BhoomiSatya acts as your **data-backed investment advisor**:
+
+- Analyzes **growth trends** in the area (are prices rising or stagnating?)
+- Checks **infrastructure developments** nearby (upcoming metro, highway, IT corridor, airport expansion)
+- Evaluates **rental yield potential** based on area demand and comparable rents
+- Assesses **liquidity risk** - how easy is it to resell in this area?
+- Compares against **alternative properties** in nearby localities at similar price points
+- Delivers an **Investment Recommendation**:
+
+| Recommendation | Meaning |
+|---------------|---------|
+| **STRONG BUY** | Legally safe, fairly priced, high growth area - excellent investment |
+| **BUY** | Safe and fair, reasonable growth potential |
+| **HOLD** | Some concerns - worth investigating further before committing |
+| **AVOID** | Legal risks, overpriced, or poor growth fundamentals |
+
+This is what no broker will ever tell you - because **brokers profit from transactions, not from good advice**. BhoomiSatya profits only when you make an informed decision.
+
+### What both parties receive
+
+A **comprehensive PDF report** delivered via WhatsApp that gives **equal information to buyer and seller** - removing the information asymmetry that middlemen exploit:
 
 1. **Property Identity** - Survey number, extent, village, mandal, district, mapped location
 2. **Ownership Chain** - Current owner(s) from land records, mutation history
@@ -97,9 +143,10 @@ A **comprehensive PDF report** delivered via WhatsApp containing:
 4. **Safety Verdict** - SAFE / CAUTION / UNSAFE with specific findings
 5. **Valuation Analysis** - Guideline value, comparable sales, fair market range
 6. **Price Verdict** - FAIR / OVERPRICED / UNDERPRICED with reasoning
-7. **Satellite Image** - Aerial view of the property and surroundings
-8. **Recommended Next Steps** - What to verify further if CAUTION/UNSAFE
-9. **Disclaimer** - This is an informational tool, not legal advice
+7. **Investment Recommendation** - STRONG BUY / BUY / HOLD / AVOID with data-backed reasoning
+8. **Satellite Image** - Aerial view of the property and surroundings
+9. **Recommended Next Steps** - What to verify further if CAUTION/UNSAFE
+10. **Disclaimer** - This is an informational tool, not legal or financial advice
 
 ### Telugu-native, voice-first
 
