@@ -343,6 +343,68 @@ User sends WhatsApp message (text/voice)
 
 ---
 
+## Honest Assessment & Phased Approach
+
+We believe in showing our work - including what we can't do yet. Here's an honest breakdown of what's real today, what needs time, and what could go wrong.
+
+### What we ship in v1 (buildable now)
+
+These features are technically feasible with current public data sources. We validated each one through live portal testing:
+
+| Feature | Data Source | Status | Notes |
+|---------|-----------|--------|-------|
+| **Property reality verification** | Dharani (TS), Meebhoomi (AP) | Ready to build | Core scraping works. Dharani is unreliable (timed out in live testing) - we cache aggressively and deliver partial reports when it's down. |
+| **Legal safety check** (Trust Score) | IGRS encumbrance, RERA, eCourts | Ready to build | Encumbrance from IGRS is scrapeable. eCourts has CAPTCHA on every search - solvable with CAPTCHA services (~Rs 2-3/solve). TS RERA has SSL certificate errors - we bypass in the scraper. |
+| **Basic valuation** (guideline value comparison) | IGRS guideline values | Ready to build | We can compare asking price against government guideline value. This is a floor, not market value - but it catches the worst overpayments. |
+| **Jargon-free reports** in Telugu/English | Bhashini API + Claude | Ready to build | Bhashini is a free government API, confirmed functional. Telugu voice notes in, Telugu text + PDF out. |
+| **Satellite imagery** | Google Maps Static API | Ready to build | Standard API, reliable, low cost. |
+| **RERA project lookup** | rera.ap.gov.in (6,687 projects), rerait.telangana.gov.in | Ready to build | AP RERA confirmed live with promoter grading + agent grading. TS RERA needs SSL bypass. |
+
+**v1 delivers: "Is this property real, is it legally safe, and is the asking price at least in the right ballpark?"** That alone is worth Rs 999 and saves buyers from the worst outcomes.
+
+### What we build toward (v2+, needs data accumulation)
+
+These features are in the README because they're where BhoomiSatya is headed. But they require proprietary data we don't have on day one. Being honest about this matters.
+
+| Feature | Why it's not v1 | What we need first | Realistic timeline |
+|---------|----------------|-------------------|-------------------|
+| **Investment recommendations** (STRONG BUY/AVOID) | No historical transaction data, no infrastructure project tracking, no growth trend database. Giving BUY/AVOID verdicts without data is irresponsible - and a liability risk. | 6-12 months of registration data accumulation, infrastructure announcement tracking, guideline value trend history. | v3 (month 9-12) |
+| **Full comparable sales valuation** | IGRS registration data for nearby sales exists but is not easily searchable at scale. Guideline value ≠ market value. | Build a proprietary transaction database from IGRS bulk scraping over time. | v2 (month 5-8) |
+| **Personalized area discovery** | "Where should I invest?" requires knowing price trends, rental yields, and infrastructure plans across all mandals. We don't have this data yet. | Same proprietary database + infrastructure project tracking + rental market data. | v2-v3 (month 6-12) |
+| **Digital property management** | This is a different product with different retention mechanics. Alerts, document vaults, and ongoing monitoring require subscription infrastructure and continuous scraping. | Subscription billing, periodic scraping pipeline, change detection system. | v2 (month 5-8) |
+
+**We will not ship investment verdicts until we have the data to back them.** The README describes the full vision; the phased approach describes what we actually ship and when.
+
+### Known risks and how we handle them
+
+These aren't hypothetical - we confirmed each one through live research:
+
+**1. Dharani portal reliability (existential risk)**
+Dharani timed out during our live testing. This is the single most important data source for Telangana, and it's genuinely unreliable. If Dharani is down, our core verification doesn't work for TS properties.
+- *Mitigation*: Aggressive caching (cache every successful response for 30 days). Deliver partial reports clearly labeled "Dharani data unavailable - cached data from [date] shown." Retry with exponential backoff. Never pretend we have data we don't.
+
+**2. eCourts CAPTCHA**
+eCourts requires solving a CAPTCHA on every single search. This adds Rs 2-3 per search and 5-10 seconds of latency.
+- *Mitigation*: Budget CAPTCHA costs into unit economics (already included). Use a CAPTCHA solving service (2Captcha/Anti-Captcha). Fall back to "court records check unavailable" rather than blocking the entire report.
+
+**3. TS RERA SSL certificate errors**
+The TS RERA portal (`rerait.telangana.gov.in`) has SSL certificate issues confirmed in live testing.
+- *Mitigation*: SSL verification bypass in the scraper (already implemented in code). This is a known government portal issue, not a security risk on our end.
+
+**4. The real competition is the trusted uncle**
+Our actual competitor isn't Propstack or NoBroker. It's the buyer's uncle, family friend, or trusted local who "knows the area." This person provides emotional comfort and social proof that no report can replace.
+- *Mitigation*: Position BhoomiSatya as the tool the trusted uncle uses. "Show this report to your uncle - he'll confirm everything checks out." We augment trust networks, we don't replace them.
+
+**5. "Not legal advice" liability**
+Our reports say a property is SAFE/UNSAFE, but we're not lawyers. If someone buys a property based on our SAFE verdict and it turns out to have issues, we're exposed.
+- *Mitigation*: Every report carries clear disclaimers: "This is an informational tool based on publicly available data. It is not legal advice. Always consult a qualified lawyer before making a purchase decision." Our value is in aggregating and explaining public data - not in replacing legal counsel.
+
+**6. 99acres-shaped gap is real, but filling it is hard**
+We confirmed that 99acres covers land records for 11 states (UP, Bihar, MP, etc.) but has NO links to Dharani or Meebhoomi. Telugu states are genuinely underserved. This validates our market - but also means there's no existing data pipeline we can piggyback on. We're building from scratch.
+- *Mitigation*: Start with the portals that work (AP RERA, IGRS) and build Dharani resilience over time. Don't promise data we can't reliably deliver.
+
+---
+
 ## Tech Stack
 
 | Layer | Technology |
