@@ -1,29 +1,16 @@
 # BhoomiSatya (భూమి సత్య) - "Land Truth"
 
-**Think Ditto, but for real estate. We remove the jargon, complexity, and opacity from property buying in Telangana and Andhra Pradesh.**
+**We cut through real estate jargon, complexity, and opacity to give you clear, honest, data-backed property decisions in Telangana and Andhra Pradesh.**
 
-> Ditto made health insurance simple. We're doing the same for land and property.
+> The truth about any property - in plain Telugu, on WhatsApp, in minutes.
 
 ---
 
-## Our Approach: The Ditto Model for Real Estate
+## Our Approach
 
-[Ditto](https://joinditto.in) transformed health insurance by doing something radical - they removed the jargon, stopped pushing high-commission policies, and simply told customers: "here's what's best for YOU, and here's why." No fine print. No hidden agenda. Just honest, data-backed advice.
+Buying property in Telugu states is drowning in jargon nobody explains, processes nobody simplifies, and advice that's always biased by commissions. BhoomiSatya sits in the middle, cuts through the noise, and gives you clear, honest, data-backed answers in plain language.
 
-**Real estate in Telugu states needs the same revolution.**
-
-Today, buying a property is drowning in jargon nobody explains, processes nobody simplifies, and advice that's always biased by commissions. BhoomiSatya is the Ditto of real estate - we sit in the middle, cut through the noise, and give you clear, honest, data-backed answers in plain language.
-
-### What Ditto did for insurance, we do for property
-
-| Ditto (Insurance) | BhoomiSatya (Real Estate) |
-|---|---|
-| Removed insurance jargon, explained policies in plain Hindi/English | Removes real estate jargon, explains everything in plain Telugu/English |
-| No commission bias - recommends the best policy for YOU | No commission bias - recommends based on data, not what earns us more |
-| "Which policy is right for me?" | "Which property/area is right for me?" |
-| Compares across insurers transparently | Compares across areas and properties transparently |
-| Free advice, earns from insurer | Affordable reports (Rs 999-2,999), earns from serving both parties |
-| Made a scary, complex decision feel simple | Makes the biggest financial decision of your life feel manageable |
+We are not just a verification tool. We are your **property advisor** - one that explains everything in words you understand, recommends only what's right for you, and serves both buyers and sellers with equal transparency.
 
 ### We translate real estate jargon into plain language
 
@@ -39,13 +26,13 @@ Today, buying a property is drowning in jargon nobody explains, processes nobody
 | "Property falls under GO 111 restricted zone" | "There are government restrictions on construction here - be careful" |
 | "EC shows a mortgage lien registered at SRO" | "This land is currently used as collateral for a bank loan" |
 
-We don't just hand you government data. We **explain what it means for your decision** - like a knowledgeable friend who happens to understand both government portals and your priorities.
+We don't just hand you government data. We **explain what it means for your decision** - like a knowledgeable friend who understands both government portals and your priorities.
 
 ---
 
 ## Our Mission
 
-**We are building the Ditto of real estate - an AI-powered advisor that ensures properties are real, manages records digitally, builds trust between buyers and sellers, and recommends the best areas to invest based on your priorities. We are not removing middlemen - we are becoming the better middleman.**
+**We are building an AI-powered property advisor that ensures properties are real, manages records digitally, builds trust between buyers and sellers, and recommends the best areas to invest based on your priorities. We are not removing middlemen - we are becoming the better middleman.**
 
 Today's real estate middlemen - brokers, agents, lawyers - operate on opacity. They control information, charge for access to public records, and neither party knows if the deal is truly fair. BhoomiSatya is a new kind of intermediary: one that is transparent, data-driven, and works equally for both buyers and sellers. We earn trust by showing our work - every data point sourced, every score explained, every recommendation backed by evidence.
 
