@@ -1,18 +1,55 @@
 # BhoomiSatya (భూమి సత్య) - "Land Truth"
 
-**AI-powered property verification, digital management, and investment recommendation agent for Telangana and Andhra Pradesh**
+**Think Ditto, but for real estate. We remove the jargon, complexity, and opacity from property buying in Telangana and Andhra Pradesh.**
 
-> Is the property real? Is it worth your money? Where should you invest? We answer all three - with data, not opinions.
+> Ditto made health insurance simple. We're doing the same for land and property.
+
+---
+
+## Our Approach: The Ditto Model for Real Estate
+
+[Ditto](https://joinditto.in) transformed health insurance by doing something radical - they removed the jargon, stopped pushing high-commission policies, and simply told customers: "here's what's best for YOU, and here's why." No fine print. No hidden agenda. Just honest, data-backed advice.
+
+**Real estate in Telugu states needs the same revolution.**
+
+Today, buying a property is drowning in jargon nobody explains, processes nobody simplifies, and advice that's always biased by commissions. BhoomiSatya is the Ditto of real estate - we sit in the middle, cut through the noise, and give you clear, honest, data-backed answers in plain language.
+
+### What Ditto did for insurance, we do for property
+
+| Ditto (Insurance) | BhoomiSatya (Real Estate) |
+|---|---|
+| Removed insurance jargon, explained policies in plain Hindi/English | Removes real estate jargon, explains everything in plain Telugu/English |
+| No commission bias - recommends the best policy for YOU | No commission bias - recommends based on data, not what earns us more |
+| "Which policy is right for me?" | "Which property/area is right for me?" |
+| Compares across insurers transparently | Compares across areas and properties transparently |
+| Free advice, earns from insurer | Affordable reports (Rs 999-2,999), earns from serving both parties |
+| Made a scary, complex decision feel simple | Makes the biggest financial decision of your life feel manageable |
+
+### We translate real estate jargon into plain language
+
+| What the government/lawyer says | What BhoomiSatya tells you |
+|---|---|
+| "Encumbrance Certificate is clear for the period" | "No one else has a claim on this land for the last 15 years" |
+| "Mutation entry recorded in revenue records" | "The ownership transfer was properly recorded with the government" |
+| "Pattadar passbook issued in the name of..." | "The government says this person owns the land" |
+| "Government guideline value is Rs X per sq. yard" | "The government thinks this land is worth at least Rs X per sq. yard - but the market price is usually higher" |
+| "Land classified as agricultural under Section 95" | "This is farmland - you can't build a house on it without conversion permission" |
+| "RERA registration valid till..." | "The builder is legally registered and allowed to sell until this date" |
+| "Non-agricultural conversion order obtained" | "Permission to build on this land has been granted" |
+| "Property falls under GO 111 restricted zone" | "There are government restrictions on construction here - be careful" |
+| "EC shows a mortgage lien registered at SRO" | "This land is currently used as collateral for a bank loan" |
+
+We don't just hand you government data. We **explain what it means for your decision** - like a knowledgeable friend who happens to understand both government portals and your priorities.
 
 ---
 
 ## Our Mission
 
-**We are building an AI-powered real estate agent that ensures properties are real, manages property records digitally, builds trust between buyers and sellers, and recommends the best areas to invest based on the user's priorities. We are not removing middlemen - we are becoming the better middleman.**
+**We are building the Ditto of real estate - an AI-powered advisor that ensures properties are real, manages records digitally, builds trust between buyers and sellers, and recommends the best areas to invest based on your priorities. We are not removing middlemen - we are becoming the better middleman.**
 
 Today's real estate middlemen - brokers, agents, lawyers - operate on opacity. They control information, charge for access to public records, and neither party knows if the deal is truly fair. BhoomiSatya is a new kind of intermediary: one that is transparent, data-driven, and works equally for both buyers and sellers. We earn trust by showing our work - every data point sourced, every score explained, every recommendation backed by evidence.
 
-We believe the real estate industry needs better middlemen, not fewer. Middlemen who use technology to serve both parties honestly. That's BhoomiSatya.
+We believe the real estate industry needs better middlemen, not fewer. Middlemen who use technology to serve both parties honestly. Who explain instead of confuse. Who recommend what's right, not what pays the most. That's BhoomiSatya.
 
 ### Our three power skills
 
