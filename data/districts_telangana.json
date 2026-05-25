@@ -1,0 +1,120 @@
+[
+  {
+    "code": "01",
+    "name": "Adilabad",
+    "mandals": [
+      {
+        "code": "01",
+        "name": "Adilabad",
+        "villages": [
+          {"code": "01", "name": "Adilabad (Urban)"},
+          {"code": "02", "name": "Adilabad (Rural)"}
+        ]
+      },
+      {
+        "code": "02",
+        "name": "Boath",
+        "villages": [
+          {"code": "01", "name": "Boath"},
+          {"code": "02", "name": "Dandepalli"}
+        ]
+      }
+    ]
+  },
+  {
+    "code": "02",
+    "name": "Hyderabad",
+    "mandals": [
+      {
+        "code": "01",
+        "name": "Charminar",
+        "villages": [
+          {"code": "01", "name": "Charminar"},
+          {"code": "02", "name": "Shalibanda"}
+        ]
+      },
+      {
+        "code": "02",
+        "name": "Khairatabad",
+        "villages": [
+          {"code": "01", "name": "Khairatabad"},
+          {"code": "02", "name": "Jubilee Hills"}
+        ]
+      },
+      {
+        "code": "03",
+        "name": "Secunderabad",
+        "villages": [
+          {"code": "01", "name": "Secunderabad"},
+          {"code": "02", "name": "Trimulgherry"}
+        ]
+      }
+    ]
+  },
+  {
+    "code": "03",
+    "name": "Rangareddy",
+    "mandals": [
+      {
+        "code": "01",
+        "name": "Rajendranagar",
+        "villages": [
+          {"code": "01", "name": "Rajendranagar"},
+          {"code": "02", "name": "Attapur"}
+        ]
+      },
+      {
+        "code": "02",
+        "name": "Shamshabad",
+        "villages": [
+          {"code": "01", "name": "Shamshabad"},
+          {"code": "02", "name": "Kothur"}
+        ]
+      }
+    ]
+  },
+  {
+    "code": "04",
+    "name": "Medchal-Malkajgiri",
+    "mandals": [
+      {
+        "code": "01",
+        "name": "Medchal",
+        "villages": [
+          {"code": "01", "name": "Medchal"},
+          {"code": "02", "name": "Kompally"}
+        ]
+      },
+      {
+        "code": "02",
+        "name": "Malkajgiri",
+        "villages": [
+          {"code": "01", "name": "Malkajgiri"},
+          {"code": "02", "name": "Nacharam"}
+        ]
+      }
+    ]
+  },
+  {
+    "code": "05",
+    "name": "Sangareddy",
+    "mandals": [
+      {
+        "code": "01",
+        "name": "Sangareddy",
+        "villages": [
+          {"code": "01", "name": "Sangareddy (Urban)"},
+          {"code": "02", "name": "Sangareddy (Rural)"}
+        ]
+      },
+      {
+        "code": "02",
+        "name": "Patancheru",
+        "villages": [
+          {"code": "01", "name": "Patancheru"},
+          {"code": "02", "name": "Isnapur"}
+        ]
+      }
+    ]
+  }
+]

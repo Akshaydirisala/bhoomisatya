@@ -1,0 +1,297 @@
+# BhoomiSatya (భూమి సత్య) - "Land Truth"
+
+**AI-powered property safety & valuation verification for Telangana and Andhra Pradesh**
+
+> One survey number. One WhatsApp message. The truth about any property in Telugu states.
+
+---
+
+## The Problem
+
+### Buying land in Telangana or Andhra Pradesh is a nightmare
+
+Every year, thousands of families in Telugu states lose their life savings to fraudulent or disputed properties. The problem isn't that information doesn't exist - it's that verifying a property requires navigating **7+ disconnected government portals**, each with its own interface, data format, and reliability issues.
+
+Here's what a diligent buyer must do today:
+
+| Check | Portal | Difficulty |
+|-------|--------|-----------|
+| Land ownership & survey records | Dharani (TS) / Meebhoomi (AP) | Session-gated, cascading dropdowns, frequently down |
+| RERA registration (apartments) | rerait.telangana.gov.in / rera.ap.gov.in | SSL issues, ASP.NET ViewState, buried search |
+| Encumbrance Certificate (EC) | IGRS registration portals | Requires SRO knowledge, date ranges |
+| Court case history | eCourts district courts | CAPTCHA on every search, manual name matching |
+| Market value / circle rate | IGRS guideline values | PDF tables, not searchable |
+| Recent sale prices nearby | Registration deed data | Not publicly searchable in most cases |
+| Physical verification | Google Maps / site visit | Manual effort |
+
+**The average buyer spends 2-4 weeks and Rs 15,000-50,000** on lawyers and document verification. Many skip verification entirely because of the cost and complexity - and pay a much higher price later.
+
+### Who suffers the most?
+
+- **NRI buyers** who can't visit government offices and rely entirely on brokers they can't verify
+- **First-time buyers** from middle-class families making the biggest financial decision of their lives
+- **Women buyers** who face additional friction at government offices
+- **Rural land buyers** where records are poorly digitized and disputes are common
+- **Small-town real estate agents** who want to build trust but lack the tools
+
+### The deeper problem: Nobody tells you if it's worth the money
+
+Even after verifying that a property is legally clean, buyers have no reliable way to answer: **"Am I paying a fair price?"**
+
+- Government guideline values are outdated and represent minimums, not market reality
+- Brokers quote prices with their commission baked in
+- There's no Telugu-states equivalent of Zillow's Zestimate
+- Registration data exists but is locked behind opaque portals
+- Buyers end up relying on "what the neighbor sold for" - anecdotal, often wrong
+
+**Result**: Overpaying by 15-30% is the norm, not the exception.
+
+---
+
+## The Solution
+
+**BhoomiSatya** is a WhatsApp-first AI agent that answers two questions about any property in Telangana or Andhra Pradesh:
+
+### 1. "Is this property safe to buy?" - Safety Verdict
+
+Send a survey number or property address via WhatsApp (text or Telugu voice note), and BhoomiSatya:
+
+- Scrapes land records from **Dharani** (TS) or **Meebhoomi** (AP) in real-time
+- Checks **RERA** registration status for apartment projects
+- Searches for **court cases** against the property or owner
+- Pulls the **Encumbrance Certificate** history
+- Fetches **satellite imagery** for physical context
+- Runs all findings through an AI agent that produces a **Trust Score (0-100)** and verdict:
+
+| Score | Verdict | Meaning |
+|-------|---------|---------|
+| 80-100 | **SAFE** | Clear title, no disputes, all records consistent |
+| 50-79 | **CAUTION** | Minor issues found - needs human review |
+| 0-49 | **UNSAFE** | Active disputes, missing records, or red flags |
+
+### 2. "Is it worth the money?" - Valuation Check
+
+BhoomiSatya also tells you whether the asking price is fair:
+
+- Pulls **government guideline value** (circle rate) for the exact location
+- Aggregates **recent registration values** for nearby properties (same village/mandal)
+- Compares against **RERA-listed prices** for similar developments
+- Factors in **location context** - proximity to highways, metro, water bodies, upcoming infrastructure
+- Produces a **Fair Market Value range** (Rs X - Rs Y per sq. yard/sq. ft.)
+- Delivers a verdict:
+
+| Verdict | Meaning |
+|---------|---------|
+| **FAIR PRICE** | Asking price is within the estimated fair market range |
+| **OVERPRICED** | Asking price exceeds fair market value by >15% |
+| **UNDERPRICED** | Asking price is below market - investigate why (could signal issues) |
+| **INSUFFICIENT DATA** | Not enough comparable transactions to estimate reliably |
+
+### What the buyer receives
+
+A **comprehensive PDF report** delivered via WhatsApp containing:
+
+1. **Property Identity** - Survey number, extent, village, mandal, district, mapped location
+2. **Ownership Chain** - Current owner(s) from land records, mutation history
+3. **Legal Safety Score** - 0-100 with detailed breakdown of each check
+4. **Safety Verdict** - SAFE / CAUTION / UNSAFE with specific findings
+5. **Valuation Analysis** - Guideline value, comparable sales, fair market range
+6. **Price Verdict** - FAIR / OVERPRICED / UNDERPRICED with reasoning
+7. **Satellite Image** - Aerial view of the property and surroundings
+8. **Recommended Next Steps** - What to verify further if CAUTION/UNSAFE
+9. **Disclaimer** - This is an informational tool, not legal advice
+
+### Telugu-native, voice-first
+
+- Send a **Telugu voice note** on WhatsApp: "హైదరాబాద్ మేడ్చల్ లో సర్వే నంబర్ 45 చెక్ చేయండి"
+- BhoomiSatya understands Telugu speech via **Bhashini** (free government API), processes it, and replies in Telugu text + voice
+- Also supports English and mixed Telugu-English (Tenglish)
+
+---
+
+## How It Works
+
+```
+User sends WhatsApp message (text/voice)
+        |
+        v
++-------------------+
+|  WhatsApp Webhook  |  Meta Cloud API
++--------+----------+
+         |
+         v
++-------------------+
+|  Bhashini ASR      |  Telugu voice -> text (if voice note)
++--------+----------+
+         |
+         v
++-------------------+
+|  AI Orchestrator   |  LangGraph state machine
+|  (Claude LLM)     |  Parses input -> decides which checks to run
++--------+----------+
+         |
+         +---> Dharani/Meebhoomi scraper (land records)
+         +---> RERA scraper (project registration)
+         +---> eCourts search (litigation history)
+         +---> IGRS scraper (encumbrance + guideline values)
+         +---> IGRS comparable sales (recent registrations nearby)
+         +---> Google Maps API (satellite image)
+         |
+         v
++-------------------+
+|  AI Analysis       |  Aggregates all data
+|                    |  Generates Trust Score + Safety Verdict
+|                    |  Generates Fair Market Value + Price Verdict
++--------+----------+
+         |
+         v
++-------------------+
+|  PDF Report        |  WeasyPrint generates professional report
++--------+----------+
+         |
+         v
++-------------------+
+|  WhatsApp Reply    |  Sends summary + PDF to user
++-------------------+
+```
+
+---
+
+## Data Sources
+
+| Source | What We Get | State | Difficulty |
+|--------|------------|-------|-----------|
+| **Dharani** (dharani.telangana.gov.in) | Land ownership, survey details, mutation history | TS | High |
+| **Meebhoomi** (meebhoomi.ap.gov.in) | Land ownership, survey details | AP | High |
+| **RERA Telangana** (rerait.telangana.gov.in) | Project registration, builder details, compliance | TS | Medium |
+| **RERA AP** (rera.ap.gov.in) | Project registration, promoter grading | AP | Medium |
+| **IGRS TS** (registration.telangana.gov.in) | Encumbrance certificates, guideline values, registration data | TS | High |
+| **IGRS AP** (registration.ap.gov.in) | Encumbrance certificates, guideline values | AP | High |
+| **eCourts** (ecourts.gov.in) | Pending/disposed cases by party name | Both | High |
+| **Google Maps Static API** | Satellite imagery of property location | Both | Low |
+| **Bhashini** (bhashini.gov.in) | Telugu speech-to-text, text-to-speech, translation | Both | Low |
+
+---
+
+## Business Model
+
+### Pricing
+
+| Plan | Price | What You Get |
+|------|-------|-------------|
+| **Quick Check** | Rs 999 | Safety score + verdict (no valuation) |
+| **Full Report** | Rs 1,999 | Safety + valuation + PDF report |
+| **Premium Report** | Rs 2,999 | Full report + comparable sales analysis + investment outlook |
+
+### Unit Economics
+
+| Item | Cost |
+|------|------|
+| LLM (Claude) per report | Rs 5-8 |
+| Scraping + proxy + CAPTCHA solving | Rs 3-5 |
+| WhatsApp conversation | Rs 0.35-0.78 |
+| PDF generation + storage | Rs 0.50 |
+| **Total cost per report** | **Rs 12-18** |
+| **Selling price** | **Rs 999-2,999** |
+| **Gross margin** | **98%+** |
+
+### Revenue Projections
+
+| Period | Monthly Reports | Monthly Revenue |
+|--------|----------------|----------------|
+| Months 1-2 | 0-10 (beta, free) | Rs 0 |
+| Months 3-4 | 20-50 | Rs 30,000-80,000 |
+| Months 5-8 | 60-150 | Rs 1,00,000-3,00,000 |
+| Months 9-12 | 200-500 | Rs 5,00,000-10,00,000 |
+
+---
+
+## Competitive Landscape
+
+| Competitor | What They Do | Gap |
+|-----------|-------------|-----|
+| **Propstack/Zapkey** | India's largest RE data (1M+ transactions). B2B enterprise only. | No consumer product. Don't scrape Dharani/Meebhoomi. No Telugu. |
+| **NoBroker** | "Property Legal" in Hyderabad - human-driven verification | Slow (5-7 days), expensive (Rs 5,000+), some services "Coming Soon" |
+| **Square Yards** | Legal services via human lawyer referrals | Not automated, no valuation, no Telugu |
+| **Local lawyers** | Manual verification at sub-registrar offices | Rs 15,000-50,000, takes weeks, no standardized output |
+| **BhoomiSatya** | **AI-driven, Telugu-native, real-time, WhatsApp-first, safety + valuation** | **This is the gap** |
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Language | Python 3.12+ |
+| API | FastAPI (async) |
+| AI Agent | LangGraph + LangChain + Claude (Anthropic) |
+| Scraping | Playwright (async) + BeautifulSoup + httpx |
+| Database | PostgreSQL (async via SQLAlchemy + asyncpg) |
+| Cache | Redis |
+| PDF | WeasyPrint + Jinja2 templates |
+| Telugu NLP | Bhashini API (ASR, TTS, Translation) |
+| Messaging | Meta WhatsApp Cloud API |
+| Payments | Razorpay |
+| Deployment | Docker + GCP Cloud Run |
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.12+
+- PostgreSQL 16+
+- Redis 7+
+- Docker & Docker Compose (recommended)
+
+### Quick Start
+
+```bash
+# Clone
+git clone https://github.com/akshaydirisala/bhoomisatya.git
+cd bhoomisatya
+
+# Environment
+cp .env.example .env
+# Edit .env with your API keys
+
+# Run with Docker
+docker compose up -d
+
+# Or run locally
+pip install -e ".[dev]"
+playwright install chromium
+uvicorn src.main:app --reload
+```
+
+---
+
+## Risks & Mitigations
+
+| Risk | Severity | Mitigation |
+|------|----------|-----------|
+| Government portals go down | High | Cache aggressively, show partial results, retry with backoff |
+| Portal structure changes | Medium | Modular scraper design, monitoring, rapid fix turnaround |
+| Scraping legality | Medium | Public data, no login bypass, rate limiting, disclaimers |
+| Accuracy liability | High | "Informational only" disclaimers, professional indemnity insurance |
+| Valuation inaccuracy | Medium | Show data sources, provide ranges not point estimates |
+
+---
+
+## Roadmap
+
+- **Phase 1 (Month 1-2)**: Core scrapers + AI agent + WhatsApp integration. Beta with 50 free users.
+- **Phase 2 (Month 3-4)**: Valuation engine + payment integration. Launch at Rs 999.
+- **Phase 3 (Month 5-6)**: Premium reports, bulk API for agents/banks, RERA bulk database.
+- **Phase 4 (Month 7-12)**: Expand to Karnataka. Builder verification reports. Subscription model for agents.
+
+---
+
+## License
+
+Proprietary. All rights reserved.
+
+---
+
+*BhoomiSatya - Because the truth about land shouldn't cost a fortune or take a month to find.*

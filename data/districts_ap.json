@@ -1,0 +1,112 @@
+[
+  {
+    "code": "01",
+    "name": "Anantapur",
+    "mandals": [
+      {
+        "code": "01",
+        "name": "Anantapur",
+        "villages": [
+          {"code": "01", "name": "Anantapur (Urban)"},
+          {"code": "02", "name": "Anantapur (Rural)"}
+        ]
+      },
+      {
+        "code": "02",
+        "name": "Dharmavaram",
+        "villages": [
+          {"code": "01", "name": "Dharmavaram"},
+          {"code": "02", "name": "Bathalapalli"}
+        ]
+      }
+    ]
+  },
+  {
+    "code": "02",
+    "name": "Chittoor",
+    "mandals": [
+      {
+        "code": "01",
+        "name": "Chittoor",
+        "villages": [
+          {"code": "01", "name": "Chittoor (Urban)"},
+          {"code": "02", "name": "Chittoor (Rural)"}
+        ]
+      },
+      {
+        "code": "02",
+        "name": "Tirupati",
+        "villages": [
+          {"code": "01", "name": "Tirupati (Urban)"},
+          {"code": "02", "name": "Tirupati (Rural)"}
+        ]
+      }
+    ]
+  },
+  {
+    "code": "03",
+    "name": "Guntur",
+    "mandals": [
+      {
+        "code": "01",
+        "name": "Guntur",
+        "villages": [
+          {"code": "01", "name": "Guntur (Urban)"},
+          {"code": "02", "name": "Guntur (Rural)"}
+        ]
+      },
+      {
+        "code": "02",
+        "name": "Tenali",
+        "villages": [
+          {"code": "01", "name": "Tenali"},
+          {"code": "02", "name": "Mangalagiri"}
+        ]
+      }
+    ]
+  },
+  {
+    "code": "04",
+    "name": "Krishna",
+    "mandals": [
+      {
+        "code": "01",
+        "name": "Vijayawada",
+        "villages": [
+          {"code": "01", "name": "Vijayawada (Urban)"},
+          {"code": "02", "name": "Vijayawada (Rural)"}
+        ]
+      },
+      {
+        "code": "02",
+        "name": "Machilipatnam",
+        "villages": [
+          {"code": "01", "name": "Machilipatnam"},
+          {"code": "02", "name": "Gudivada"}
+        ]
+      }
+    ]
+  },
+  {
+    "code": "05",
+    "name": "Visakhapatnam",
+    "mandals": [
+      {
+        "code": "01",
+        "name": "Visakhapatnam",
+        "villages": [
+          {"code": "01", "name": "Visakhapatnam (Urban)"},
+          {"code": "02", "name": "Gajuwaka"}
+        ]
+      },
+      {
+        "code": "02",
+        "name": "Anakapalle",
+        "villages": [
+          {"code": "01", "name": "Anakapalle"},
+          {"code": "02", "name": "Yelamanchili"}
+        ]
+      }
+    ]
+  }
+]

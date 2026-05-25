@@ -1,0 +1,79 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bhoomisatya"
+version = "0.1.0"
+description = "AI-powered property safety & valuation verification agent for Telangana and Andhra Pradesh"
+readme = "README.md"
+license = { text = "Proprietary" }
+requires-python = ">=3.12"
+authors = [{ name = "akshaydirisala", email = "dirisala.akshay999@gmail.com" }]
+
+dependencies = [
+    # Web framework
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+
+    # AI / Agent
+    "langchain>=0.3.0",
+    "langgraph>=0.2.0",
+    "langchain-anthropic>=0.3.0",
+
+    # Database
+    "sqlalchemy[asyncio]>=2.0.0",
+    "asyncpg>=0.30.0",
+    "alembic>=1.14.0",
+
+    # Cache
+    "redis>=5.0.0",
+
+    # Scraping
+    "playwright>=1.49.0",
+    "httpx>=0.28.0",
+    "beautifulsoup4>=4.12.0",
+    "lxml>=5.0.0",
+
+    # PDF generation
+    "weasyprint>=62.0",
+    "jinja2>=3.1.0",
+
+    # Config & validation
+    "pydantic>=2.10.0",
+    "pydantic-settings>=2.6.0",
+
+    # Payments
+    "razorpay>=1.4.0",
+
+    # Utilities
+    "python-multipart>=0.0.12",
+    "python-jose[cryptography]>=3.3.0",
+    "tenacity>=9.0.0",
+    "structlog>=24.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.24.0",
+    "pytest-cov>=6.0.0",
+    "httpx>=0.28.0",
+    "ruff>=0.8.0",
+    "mypy>=1.13.0",
+]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "UP"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
