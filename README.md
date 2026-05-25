@@ -1,18 +1,32 @@
 # BhoomiSatya (భూమి సత్య) - "Land Truth"
 
-**AI-powered property verification agent that removes middlemen from real estate in Telangana and Andhra Pradesh**
+**AI-powered property verification, digital management, and investment recommendation agent for Telangana and Andhra Pradesh**
 
-> One survey number. One WhatsApp message. Data-backed decisions for buyers and sellers - no brokers, no guesswork.
+> Is the property real? Is it worth your money? Where should you invest? We answer all three - no brokers, no guesswork, just data.
 
 ---
 
 ## Our Mission
 
-**We are building an AI agent and company that recommends users the best property to invest in, removes middlemen from real estate transactions, and serves data-backed decisions to ensure both parties - buyers and sellers - get fair value.**
+**We are building an AI agent that ensures properties are real, manages property records digitally, builds trust between buyers and sellers, and recommends the best areas to invest based on the user's priorities - removing middlemen entirely from real estate.**
 
 The real estate industry in Telugu states runs on opacity. Brokers control information, lawyers charge for access to public records, and neither the buyer nor the seller knows if the deal is fair. BhoomiSatya changes this by making property data transparent, instant, and affordable.
 
-We don't just verify properties. We **recommend** whether a property is the right investment for you - backed by government land records, court data, registration values, and market comparables. No middlemen. No hidden agendas. Just truth.
+### Our three power skills
+
+**1. Property Reality Verification** - Our core strength. We prove a property is real and legally clean by cross-referencing government land records, court databases, RERA registrations, and encumbrance certificates in real-time. No broker can fake what government databases confirm.
+
+**2. Digital Property Management** - We create a digital identity for every property we verify. Ownership records, encumbrance history, registration data, satellite imagery, valuation trends - all in one place, always up to date. Property owners can share their verified digital profile with any buyer, bank, or institution. No more carrying paper documents to multiple offices.
+
+**3. Personalized Area & Investment Recommendations** - We don't just check one property. We recommend **where** to invest based on what matters to YOU:
+- Budget range and property type (plot, apartment, farmland, commercial)
+- Proximity preferences (schools, hospitals, IT hubs, metro, highway)
+- Growth potential vs immediate livability
+- Rental yield expectations
+- Risk appetite (established area vs upcoming corridor)
+- NRI-specific needs (gated communities, managed properties, rental income)
+
+We aggregate data across thousands of registrations, RERA projects, infrastructure announcements, and guideline value trends to recommend areas and specific properties that match your priorities - something no individual broker has the data or incentive to do honestly.
 
 ---
 
@@ -76,9 +90,21 @@ The total middleman tax on a typical Telugu-state property transaction is **3-5%
 
 **BhoomiSatya** is a WhatsApp-first AI agent that serves as your **data-backed property advisor** - replacing brokers, lawyers, and guesswork with transparent, instant, and affordable property intelligence.
 
-We answer three questions about any property in Telangana or Andhra Pradesh:
+We do four things:
 
-### 1. "Is this property safe to buy?" - Safety Verdict
+### 1. "Is this property even real?" - Property Reality Verification
+
+This is our **core power skill**. Before anything else, we prove the property exists and is what the seller claims it is:
+
+- Cross-references **Dharani** (TS) or **Meebhoomi** (AP) to confirm the survey number, extent, and ownership match what the seller told you
+- Verifies the **seller is actually the owner** (or has legal authority to sell)
+- Checks for **forged or duplicate survey numbers** - a common scam in peri-urban areas
+- Confirms **land classification** (agricultural, non-agricultural, government, assigned) matches the intended use
+- Validates **RERA registration** for apartment projects - is this project even registered?
+
+If the property isn't real or the seller isn't who they claim - nothing else matters. This check alone saves families from the most devastating frauds.
+
+### 2. "Is this property legally safe?" - Safety Verdict
 
 Send a survey number or property address via WhatsApp (text or Telugu voice note), and BhoomiSatya:
 
@@ -95,7 +121,7 @@ Send a survey number or property address via WhatsApp (text or Telugu voice note
 | 50-79 | **CAUTION** | Minor issues found - needs human review |
 | 0-49 | **UNSAFE** | Active disputes, missing records, or red flags |
 
-### 2. "Is it worth the money?" - Valuation Check
+### 3. "Is it worth the money?" - Valuation Check
 
 BhoomiSatya also tells you whether the asking price is fair:
 
@@ -113,7 +139,7 @@ BhoomiSatya also tells you whether the asking price is fair:
 | **UNDERPRICED** | Asking price is below market - investigate why (could signal issues) |
 | **INSUFFICIENT DATA** | Not enough comparable transactions to estimate reliably |
 
-### 3. "Should I invest in this property?" - Investment Recommendation
+### 4. "Should I invest in this property?" - Investment Recommendation
 
 Beyond safety and price, BhoomiSatya acts as your **data-backed investment advisor**:
 
@@ -132,6 +158,32 @@ Beyond safety and price, BhoomiSatya acts as your **data-backed investment advis
 | **AVOID** | Legal risks, overpriced, or poor growth fundamentals |
 
 This is what no broker will ever tell you - because **brokers profit from transactions, not from good advice**. BhoomiSatya profits only when you make an informed decision.
+
+### 5. "Where should I invest?" - Personalized Area Recommendations
+
+Most buyers come with a budget and priorities, not a specific survey number. BhoomiSatya helps them **discover the right area** before they even look at a property:
+
+- Tell us your **budget** (e.g., "Rs 30-50 lakhs for a plot")
+- Tell us your **priorities** (e.g., "close to IT corridor, good schools, upcoming metro")
+- Tell us your **purpose** (self-use, rental income, long-term appreciation, farmhouse)
+- We analyze **guideline value trends, registration volumes, infrastructure projects, and growth corridors** across all mandals
+- We recommend **top 3-5 areas** that match your criteria, with data on why each area scores well
+- For NRIs: we factor in **gated community availability, property management options, and rental demand**
+
+This turns BhoomiSatya from a verification tool into a **property discovery platform** - one that works for YOU, not for a broker's commission.
+
+### 6. Digital Property Management
+
+Every property we verify gets a **digital property profile** - a living document that stays updated:
+
+- **Verified ownership record** with timestamp and source references
+- **Encumbrance history** - updated periodically to catch new liens or mortgages
+- **Valuation trajectory** - how the guideline value and market value have changed over time
+- **Document vault** - store sale deeds, EC certificates, tax receipts digitally
+- **Shareable verified link** - property owners can share their BhoomiSatya-verified profile with buyers, banks, or institutions instead of carrying paper documents
+- **Alert system** - get notified if a new court case, encumbrance, or ownership change is detected on your property
+
+This makes BhoomiSatya valuable **after the purchase** too - not just during the buying decision.
 
 ### What both parties receive
 
