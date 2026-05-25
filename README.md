@@ -2,15 +2,17 @@
 
 **AI-powered property verification, digital management, and investment recommendation agent for Telangana and Andhra Pradesh**
 
-> Is the property real? Is it worth your money? Where should you invest? We answer all three - no brokers, no guesswork, just data.
+> Is the property real? Is it worth your money? Where should you invest? We answer all three - with data, not opinions.
 
 ---
 
 ## Our Mission
 
-**We are building an AI agent that ensures properties are real, manages property records digitally, builds trust between buyers and sellers, and recommends the best areas to invest based on the user's priorities - removing middlemen entirely from real estate.**
+**We are building an AI-powered real estate agent that ensures properties are real, manages property records digitally, builds trust between buyers and sellers, and recommends the best areas to invest based on the user's priorities. We are not removing middlemen - we are becoming the better middleman.**
 
-The real estate industry in Telugu states runs on opacity. Brokers control information, lawyers charge for access to public records, and neither the buyer nor the seller knows if the deal is fair. BhoomiSatya changes this by making property data transparent, instant, and affordable.
+Today's real estate middlemen - brokers, agents, lawyers - operate on opacity. They control information, charge for access to public records, and neither party knows if the deal is truly fair. BhoomiSatya is a new kind of intermediary: one that is transparent, data-driven, and works equally for both buyers and sellers. We earn trust by showing our work - every data point sourced, every score explained, every recommendation backed by evidence.
+
+We believe the real estate industry needs better middlemen, not fewer. Middlemen who use technology to serve both parties honestly. That's BhoomiSatya.
 
 ### Our three power skills
 
@@ -26,7 +28,7 @@ The real estate industry in Telugu states runs on opacity. Brokers control infor
 - Risk appetite (established area vs upcoming corridor)
 - NRI-specific needs (gated communities, managed properties, rental income)
 
-We aggregate data across thousands of registrations, RERA projects, infrastructure announcements, and guideline value trends to recommend areas and specific properties that match your priorities - something no individual broker has the data or incentive to do honestly.
+We aggregate data across thousands of registrations, RERA projects, infrastructure announcements, and guideline value trends to recommend areas and specific properties that match your priorities - the kind of deep, data-backed advice that traditional brokers simply cannot provide at scale.
 
 ---
 
@@ -70,25 +72,25 @@ Even after verifying that a property is legally clean, buyers have no reliable w
 
 **Result**: Overpaying by 15-30% is the norm, not the exception.
 
-### The middlemen problem
+### Why today's middlemen fail both parties
 
-Real estate in India is dominated by brokers and intermediaries who profit from information asymmetry:
+Real estate in India needs intermediaries - buyers and sellers need someone to bridge the trust gap. But today's middlemen fail at this job:
 
-- **Brokers** charge 1-2% of property value (Rs 50,000-2,00,000 on a typical transaction) for "connecting" buyer and seller - while hiding comparable sale data that would let buyers negotiate
-- **Lawyers** charge Rs 15,000-50,000 for verification that largely involves visiting the same government portals we scrape
-- **Neither party knows if the deal is fair** - the broker benefits from higher prices (higher commission), not from fair prices
-- **Sellers get less** because brokers take their cut from both sides
-- **Buyers pay more** because they have no independent data to negotiate with
+- **Brokers** charge 1-2% of property value but hide comparable sale data that would help both parties agree on a fair price
+- **Lawyers** charge Rs 15,000-50,000 for verification that largely involves visiting the same government portals
+- **Neither party gets full transparency** - the broker benefits from closing deals fast, not from ensuring fair outcomes
+- **Sellers don't know their property's true market value** and often underprice or overprice
+- **Buyers don't know if they're overpaying** and have no independent data to negotiate with
 
-The total middleman tax on a typical Telugu-state property transaction is **3-5% of property value**. On a Rs 50 lakh property, that's Rs 1.5-2.5 lakhs going to intermediaries who add opacity, not transparency.
+The problem isn't that middlemen exist - it's that they **don't use data, don't share information equally, and don't serve both parties**.
 
-**BhoomiSatya replaces this entire chain** with a Rs 999-2,999 AI-powered report that gives both parties the same data, the same truth, and the confidence to transact directly.
+**BhoomiSatya is the better middleman.** We charge Rs 999-2,999 for a report that gives both buyer and seller the same data, the same truth, and the confidence to transact fairly. We make money when both parties are informed - not when one party is in the dark.
 
 ---
 
 ## The Solution
 
-**BhoomiSatya** is a WhatsApp-first AI agent that serves as your **data-backed property advisor** - replacing brokers, lawyers, and guesswork with transparent, instant, and affordable property intelligence.
+**BhoomiSatya** is a WhatsApp-first AI agent that serves as your **data-backed property advisor** - a new kind of real estate intermediary that is transparent, affordable, and works for both parties.
 
 We do four things:
 
@@ -157,7 +159,7 @@ Beyond safety and price, BhoomiSatya acts as your **data-backed investment advis
 | **HOLD** | Some concerns - worth investigating further before committing |
 | **AVOID** | Legal risks, overpriced, or poor growth fundamentals |
 
-This is what no broker will ever tell you - because **brokers profit from transactions, not from good advice**. BhoomiSatya profits only when you make an informed decision.
+This is what traditional brokers can't do - they lack the data, the technology, and the incentive to analyze this deeply. BhoomiSatya can, because **we are the better middleman** - one that profits when you make an informed decision.
 
 ### 5. "Where should I invest?" - Personalized Area Recommendations
 
@@ -187,7 +189,7 @@ This makes BhoomiSatya valuable **after the purchase** too - not just during the
 
 ### What both parties receive
 
-A **comprehensive PDF report** delivered via WhatsApp that gives **equal information to buyer and seller** - removing the information asymmetry that middlemen exploit:
+A **comprehensive PDF report** delivered via WhatsApp that gives **equal information to buyer and seller** - because a better middleman serves both parties:
 
 1. **Property Identity** - Survey number, extent, village, mandal, district, mapped location
 2. **Ownership Chain** - Current owner(s) from land records, mutation history
